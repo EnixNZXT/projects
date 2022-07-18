@@ -7,12 +7,10 @@ import java.util.Scanner;
 public class Nimm {
     public static void main(String[] args) {
 
-
         int inputPlayer;
         int npc;
         Scanner scanInput = new Scanner(System.in);
         int coins= (int) (Math.random()*(30-15))+15;
-
 
         System.out.println("Im Spiel sind:\n"+coins+" "+"Muenzen" );
         do {
