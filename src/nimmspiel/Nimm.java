@@ -29,7 +29,7 @@ public class Nimm {
                 System.out.println("Das Spiel ist beendet.\n Du hast gewonnen!");
                 break;
             }
-             npc=(int) (Math.random()*(3-1))+1;
+             npc=(int) (Math.random()*(4-1))+1;
             coins-=npc;
             System.out.println("Der Computer hat \n"+npc+" "+"Muenzen gezogen");
 
